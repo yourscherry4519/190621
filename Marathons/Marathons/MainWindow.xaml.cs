@@ -36,6 +36,7 @@ namespace Marathons
                 foreach (Volunteer u in db.Volunteer)
                     volunteers.Add(u);
                 DataGridVolonter.ItemsSource = db.Volunteer.Local.ToBindingList();
+
             }
         }
     }
